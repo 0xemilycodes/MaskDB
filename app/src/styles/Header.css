@@ -1,0 +1,26 @@
+.header {
+  background: linear-gradient(135deg, rgba(15, 118, 110, 0.12), rgba(17, 24, 39, 0.08));
+  border: 1px solid #d1d5db;
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: 0 26px 70px rgba(0, 0, 0, 0.06);
+}
+
+.header-inner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.hero-title {
+  margin: 0.2rem 0;
+  font-size: 1.6rem;
+  color: #0f172a;
+}
+
+.hero-subtitle {
+  margin: 0.25rem 0 0;
+  color: #1f2937;
+  max-width: 720px;
+}
